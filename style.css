@@ -63,8 +63,7 @@ h3 {
   right: 0;
   bottom: 0;
   display: flex;
-  justify-content: start;
-  padding: 80% 0 0;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
   background-color: rgba(0, 0, 0, .8);
@@ -72,7 +71,7 @@ h3 {
   user-select: none;
   cursor: pointer;
   font-size: 10rem;
-  height: 100%;
+
 }
 
 #gameover span {
@@ -88,5 +87,6 @@ h3 {
   }
   #gameover {
     font-size: 3rem;
+    height: 100%;
   }
 }
